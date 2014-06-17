@@ -31,7 +31,7 @@ namespace PC_DCS_Tool_No2
         {
             InitializeComponent();
         }
-            
+             
         private void Form1_Load(object sender, EventArgs e)
         {
             checkBox1.Tag = reg[0];
