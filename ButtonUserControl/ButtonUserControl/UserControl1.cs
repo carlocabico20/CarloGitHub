@@ -248,7 +248,7 @@ namespace ButtonUserControl
                 else
                 {
                     value = -1;
-                  //  parent.BtnUcs[1].DoStatBtn.Text = "Off"; //test
+                  //  parent.BtnUcs[1].DoStatBtn.Text = "Off";
                 }
             }
             parent.OpcOnOff(DoAddrTxt.Text, value, DoStatBtn);
