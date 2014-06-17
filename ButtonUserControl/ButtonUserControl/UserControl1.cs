@@ -187,7 +187,7 @@ namespace ButtonUserControl
 
         private void SwStatBtn_Click(object sender, EventArgs e)
         {
-            var parent = this.Parent as MainUserControl.UserControl1;
+            dynamic parent = this.Parent;// as MainUserControl.UserControl1;
             int value;
             if (SwAddrTxt.Text.Contains("/"))
             {
@@ -222,7 +222,7 @@ namespace ButtonUserControl
 
         private void DoStatBtn_Click(object sender, EventArgs e)
         {
-            var parent = this.Parent as MainUserControl.UserControl1;
+            dynamic parent = this.Parent;// as MainUserControl.UserControl1;
             int value;
             if (DoAddrTxt.Text.Contains("/"))
             {
@@ -248,7 +248,7 @@ namespace ButtonUserControl
                 else
                 {
                     value = -1;
-                  //  parent.BtnUcs[1].DoStatBtn.Text = "Off";
+                  //  parent.BtnUcs[1].DoStatBtn.Text = "Off"; //test
                 }
             }
             parent.OpcOnOff(DoAddrTxt.Text, value, DoStatBtn);
@@ -256,7 +256,7 @@ namespace ButtonUserControl
 
         private void AnsStatBtn_Click(object sender, EventArgs e)
         {
-            var parent = this.Parent as MainUserControl.UserControl1;
+            dynamic parent = this.Parent;// as MainUserControl.UserControl1;
             int value;
             if (AnsAddrTxt.Text.Contains("/"))
             {
