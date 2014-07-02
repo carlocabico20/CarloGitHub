@@ -1,0 +1,20 @@
+No.,Content,Setting
+1,"comma "","" insertion in monitor value (0:Disable 1:Enable )",0
+2,Screen size(0:1024Å~768(XGA) 1:1280Å~1024(SXGA) 2:1400Å~1050(SXGA+) 3:1600Å~1200(UXGA) 4:1280Å~800(WXGA(anomaly)) 5:1440Å~900(WXGA+) 6:1680Å~1050(WSXGA+) 7:1920Å~1200(WUXGA)),1
+3,The clock of the PC is notified to Station1 PLC. (0:Disable 1:Enable),0
+4,Language(0:Japanese 1:English),1
+5,IO Server(0:DDE Server 1:MELSEC OPC Server),1
+6,Display Flag Output for Event Logging(0:No-output 1:Output),1
+7,KGC Gas-chro Data Import(0:Disable 1:Enable),0
+8,Page Title Width Setting for Over 1280dot Width Screen(279:Standard 229:Tag Name15byte Display),279
+9,Past Graph. Date Dialogbox Location(0:Top Right 1:Bottom Right 2:Bottom Left 3:Top Left),0
+10,Page Jump at Alarm Rise(0:Disable 1:Enable),0
+11,Operation Manual Function(0:Disable 1:Enable),0
+12,Trend Property Password Block(0:Disable 1:Enable),0
+13,Data Import Function(0:Disable 1:Enable),0
+14,Display of Printer Dialogbox(0:Enable 1:Disable),0
+15,Object Number Warnning Message(0:Enable 1:Disable),1
+16,Old Style Toolbar(0:Disable 1:Enable),0
+17,PLC Type Information for OPC Server(0:MELSEC 1:Siemens),0
+18,Buzzer Stop with Control Panel Button(0:Disable 1:Enable),0
+19,Keyboard Input for Setup Dialog(0:Disable 1:Enable),1

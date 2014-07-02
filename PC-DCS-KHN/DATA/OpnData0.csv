@@ -1,0 +1,4 @@
+Page,0,Startup Window 1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STR,1420,1100,0,0,-1,NULL,0,16777215,16777215,1,"Hitachi Plant Mechanics Co,Ltd.",Reserved1,0,Reserved2,Reserved3,NULL,-16,0,0,0,0,0,0,0,128,0,0,0,0,Courier New,0,16777215,16777215,0,Unit,20,0,0,0,0,0,0,0,128,0,0,0,0,Courier New,END
+STR,900,480,0,0,-1,NULL,0,16777215,16777215,1,Initializing,Reserved1,0,Reserved2,Reserved3,NULL,-16,0,0,0,0,0,0,0,128,0,0,0,0,Courier New,0,16777215,16777215,0,Unit,20,0,0,0,0,0,0,0,128,0,0,0,0,Courier New,END
+CHA,500,200,0,0,0,0,0,65536,1,,5,.\BMP\pcdcs.bmp,,,0,0,END,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
