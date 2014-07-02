@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PictureTakerForm));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -43,27 +42,23 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(7, 8);
+            this.textBox1.Location = new System.Drawing.Point(7, 9);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(266, 19);
+            this.textBox1.Size = new System.Drawing.Size(266, 20);
             this.textBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(275, 8);
+            this.button1.Location = new System.Drawing.Point(275, 9);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(61, 18);
+            this.button1.Size = new System.Drawing.Size(61, 20);
             this.button1.TabIndex = 1;
             this.button1.Text = "Select";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // notifyIcon1
             // 
@@ -96,15 +91,17 @@
             // 
             // PictureTakerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 35);
+            this.ClientSize = new System.Drawing.Size(346, 38);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PictureTakerForm";
             this.Text = "CapTaker";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PictureTakerForm_FormClosed);
+            this.Load += new System.EventHandler(this.PictureTakerForm_Load);
             this.Resize += new System.EventHandler(this.PictureTakerForm_Resize);
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -116,7 +113,6 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
